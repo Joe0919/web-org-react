@@ -1,0 +1,26 @@
+.section-miOrg {
+  color: #3b4eba;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.section-miOrg h1{
+    font-size: 1.8rem;
+    padding-bottom: 6px;
+    border-bottom: 4px solid #3b4eba;
+}
+
+.section-miOrg img{
+    position: absolute;
+    right: 16%;
+    transition: all .5s;
+}
+.section-miOrg img:hover{
+    transform: scale(1.1);
+}
+
+
